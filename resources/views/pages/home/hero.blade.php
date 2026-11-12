@@ -28,6 +28,8 @@
                 <a class="btn btn-outline btn-large" href="#anfahrt">So findest du uns</a>
             @endif
         </div>
+
+        @include('pages.home.award')
     </div>
 </section>
 

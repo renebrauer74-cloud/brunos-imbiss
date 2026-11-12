@@ -27,6 +27,13 @@ it('shows the seeded menu on the home page', function () {
         ->assertSee('FastFoodRestaurant');
 });
 
+it('shows the Restaurant Guru award on the home page', function () {
+    $this->get(route('home'))
+        ->assertOk()
+        ->assertSee('https://awards.infcdn.net/2026_new/circ5_n.css', false)
+        ->assertSee('href="https://de.restaurantguru.com/Brunos-Imbiss-Bochum"', false);
+});
+
 it('hides invisible items and categories', function () {
     $category = Category::factory()->create(['name' => 'Burger']);
     MenuItem::factory()->for($category)->create(['name' => 'Sichtbarer Burger']);

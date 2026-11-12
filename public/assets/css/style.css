@@ -214,6 +214,8 @@ h1, h2, h3 {
 .status-pill .dot { width: 11px; height: 11px; border-radius: 50%; background: var(--ketchup); }
 .status-pill.is-open .dot { background: var(--green); box-shadow: 0 0 0 0 rgba(31, 157, 85, .6); animation: pulse 2s infinite; }
 .hero-actions { display: flex; flex-wrap: wrap; justify-content: center; gap: 14px; }
+.hero-award { margin-top: 28px; display: flex; justify-content: center; }
+.hero-award > div { cursor: pointer; }
 
 @media (max-width: 480px) {
     .hero { padding: 22px 0 34px; }

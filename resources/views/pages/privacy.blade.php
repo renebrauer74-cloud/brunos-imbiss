@@ -21,6 +21,10 @@
                     Cookies (Sitzung und Schutz vor gefälschten Formularanfragen) gesetzt, die beim Schließen des
                     Browsers bzw. nach kurzer Zeit verfallen (§&nbsp;25 Abs.&nbsp;2 TDDDG). Der Link „Route planen“ führt zu
                     Google Maps; erst beim Anklicken werden Daten an Google übertragen.</p>
+                <p>Auf der Startseite zeigen wir unsere Auszeichnung von Restaurant Guru. Das Abzeichen (Grafik und
+                    Gestaltung) wird vom Server awards.infcdn.net geladen; dabei wird technisch bedingt deine IP-Adresse
+                    an den Anbieter übermittelt. Rechtsgrundlage ist unser berechtigtes Interesse, die Auszeichnung
+                    darzustellen (Art.&nbsp;6 Abs.&nbsp;1 lit.&nbsp;f DSGVO).</p>
 
                 <h2>Kontakt</h2>
                 <p>Wenn du uns per Telefon oder E-Mail kontaktierst, verarbeiten wir deine Angaben nur zur

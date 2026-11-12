@@ -1,0 +1,4 @@
+{{-- Restaurant-Guru-Auszeichnung 2026 – Code unverändert lassen, Restaurant Guru prüft ihn automatisch. --}}
+<div class="hero-award">
+<link href="https://awards.infcdn.net/2026_new/circ5_n.css" rel="stylesheet"/><div id="rg26-b-rcirc5" class="rg26-rg-award-lang-de_DE" onclick="if(event.target.nodeName.toLowerCase() != 'a') {window.open(this.querySelector('.rg26-b-rcirc_bot_title').href);return 0;}"><div class="rg26-circ_cont"> <img class="rg26-circ_img" src="https://awards.infcdn.net/img/star_red.svg" alt="star"><a href="https://restaurantguru.com" target="_blank" class="rg26-b-rcirc_top_title">Restaurant Guru 2026</a><p class=" rg26-b-rcirc_ttl">Empfohlen</p><a href="https://de.restaurantguru.com/Brunos-Imbiss-Bochum" class="rg26-b-rcirc_bot_title " target="_blank">Bruno's Imbiss</a></div></div>
+</div>
