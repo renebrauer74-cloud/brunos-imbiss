@@ -598,9 +598,31 @@ h1, h2, h3 {
 .footer-links a { color: #fff; font-weight: 600; }
 .copyright { font-size: .85rem; color: #999; }
 
+.pay { margin: 14px 0 4px; padding-top: 12px; border-top: 1px dashed rgba(255, 255, 255, .15); }
+.footer-text .pay-label { margin-bottom: 8px; font-size: .85rem; color: rgba(255, 255, 255, .65); }
+.pay-list { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px; list-style: none; margin: 0; padding: 0; }
+.pay-list li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 26px;
+    min-width: 40px;
+    padding: 0 7px;
+    border-radius: 6px;
+    background: #fff;
+    opacity: .92;
+}
+.pay-list svg { display: block; width: auto; height: 16px; }
+.pay-text { display: flex; align-items: center; gap: 2px; font: 800 11px/1 var(--font); color: #333; }
+.pay-text .pay-apple { height: 12px; }
+.pay-giro { color: #0a4a8c; }
+.pay-visa { font-size: 12px; font-style: italic; letter-spacing: .02em; color: #1A1F71; }
+.pay-g { color: #4285F4; }
+
 @media (min-width: 768px) {
     .footer-inner { flex-direction: row; justify-content: center; text-align: left; gap: 40px; }
     .footer-links { justify-content: flex-start; }
+    .pay-list { justify-content: flex-start; }
 }
 
 /* ---------- Mobile Schnellzugriff ---------- */

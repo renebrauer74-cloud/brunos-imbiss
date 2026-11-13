@@ -70,6 +70,7 @@
         <div class="footer-text">
             <p class="footer-slogan">{{ $settings->slogan }}</p>
             <p>{{ $settings->site_title }} · {{ $links['address'] }}</p>
+            <x-payment-methods />
             <nav class="footer-links" aria-label="Rechtliches">
                 <a href="{{ route('imprint') }}">Impressum</a>
                 <a href="{{ route('privacy') }}">Datenschutz</a>
